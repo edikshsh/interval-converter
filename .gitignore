@@ -1,0 +1,6 @@
+/node_modules
+/package-tests
+/dist
+/*.tgz
+/src/temp
+TODO.txt

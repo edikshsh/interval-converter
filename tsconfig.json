@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "rootDir": "src",
+        "outDir": "dist",
+        "stripInternal": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "declaration": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/temp",
+    ],
+}
