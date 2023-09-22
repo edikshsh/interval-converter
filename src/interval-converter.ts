@@ -7,7 +7,7 @@ import {
 } from './enums/time-multiplier.const';
 import { TimeUnit } from './enums/time-unit.enum';
 
-export class PeriodConverter {
+export class IntervalConverter {
     timeUnitMap: Record<TimeUnit, number> = {
         ms: this.ms,
         second: this.seconds,

@@ -1,7 +1,7 @@
 {
-    "name": "period-of",
+    "name": "interval-converter",
     "version": "1.0.0",
-    "description": "Create time periods in a declarative and readable way",
+    "description": "Create time intervals in a declarative and readable way",
     "main": "index.js",
     "scripts": {
         "test": "jest ./*.spec.ts",
@@ -12,7 +12,7 @@
     "author": "Edward Shekhtman",
     "license": "ISC",
     "devDependencies": {
-        "module-tar": "file:period-of-1.0.0.tgz",
+        "module-tar": "file:interval-converter-1.0.0.tgz",
         "@types/jest": "^27.5.2",
         "@types/lodash.clonedeep": "^4.5.7",
         "@types/node": "^18.7.20",

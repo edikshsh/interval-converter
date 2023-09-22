@@ -1,4 +1,4 @@
-export type PeriodOfPayload = {
+export type IntervalOfPayload = {
     ms: number;
     seconds: number;
     minutes: number;
